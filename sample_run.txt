@@ -1,0 +1,51 @@
+===========================================================
+                WELCOME TO CENSUS NAME VIEWER
+===========================================================
+This program fetches historical US Census Bureau name data
+from a live database using N-tier architecture.
+
+Please follow the prompts below to filter the database!
+
+-----------------------------------------------------------
+
+--- MAIN MENU ---
+
+1. Search Name Database
+2. Quit Program
+Enter your choice (1-2): 1
+
+Select a year between 1915 and 2014: 1971
+Please enter a gender (M/F): M
+
+20 most popular names for M babies in 1971:
+
+  Year   Name                   Gender   Count
+  1971   Michael                M        77611
+  1971   James                  M        54608
+  1971   David                  M        53136
+  1971   John                   M        51519
+  1971   Robert                 M        50656
+  1971   Christopher            M        48251
+  1971   William                M        35442
+  1971   Jason                  M        34191
+  1971   Brian                  M        32650
+  1971   Scott                  M        30920
+  1971   Richard                M        26166
+  1971   Jeffrey                M        25849
+  1971   Mark                   M        25143
+  1971   Kevin                  M        24876
+  1971   Joseph                 M        24512
+  1971   Steven                 M        23697
+  1971   Thomas                 M        23165
+  1971   Eric                   M        22977
+  1971   Matthew                M        22567
+  1971   Daniel                 M        21784
+--------------------------------------------------
+
+--- MAIN MENU ---
+
+1. Search Name Database
+2. Quit Program
+Enter your choice (1-2): 2
+
+Thank you for using the Census Name Viewer. Goodbye!
