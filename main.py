@@ -42,7 +42,7 @@ def main():
     while choice != 2:
         display_menu()
 
-        # Re-using a basic input for the menu, or we could add get_menu_choice to valid.py
+        # Re-using a basic input for the menu
         try:
             choice = int(input("Enter your choice (1-2): "))
         except ValueError:
@@ -60,7 +60,7 @@ def main():
             # Print table headers with formatting
             print(f"  {'Year':<6} {'Name':<22} {'Gender':<8} {'Count':<7}")
 
-            # Pass user inputs to the business layer
+            # Pass user inputs
             names_list = n.Name.readNames(year, gender)
 
             if not names_list:

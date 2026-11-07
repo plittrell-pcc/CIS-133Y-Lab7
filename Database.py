@@ -35,10 +35,7 @@ class Database:
         # Parameterized query to prevent SQL Injection
         # Fetching TOP 20 ordered descending to match the sample output
         query = """
-                SELECT TOP 20 
-                    ygt.Year, n.Name,
-                    ygt.Gender,
-                    nc.NameCount
+                SELECT TOP 20 ygt.Year, n.Name, ygt.Gender, nc.NameCount
                 FROM name_counts nc
                 JOIN names n ON nc.FK_NameID = n.NameID
                 JOIN year_gender_totals ygt ON nc.FK_YearGenderTotalID = ygt.YearGenderTotalID
